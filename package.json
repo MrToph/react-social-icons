@@ -4,6 +4,7 @@
   "description": "beautiful, easy svg social icons in react",
   "main": "./react-social-icons.js",
   "scripts": {
+    "build": "babel src --presets babel-preset-es2015 --out-dir lib",
     "start": "./scripts/dev-examples.sh",
     "test": "karma start",
     "test-dev": "karma start --auto-watch --no-single-run",
