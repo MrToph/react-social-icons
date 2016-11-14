@@ -1,9 +1,7 @@
 export const socialIcon = {
-  display: 'inline-block',
   width: '50px',
   height: '50px',
   borderRadius: '50%',
-  position: 'relative',
   overflow: 'hidden',
   verticalAlign: 'middle',
 };
